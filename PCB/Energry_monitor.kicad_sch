@@ -2,9 +2,51 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid b3a00096-e201-45d6-8313-ccf00a75c96f)
+	(uuid "b3a00096-e201-45d6-8313-ccf00a75c96f")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 120.65 95.25)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6d29f19-82be-493b-ac03-8f5d2874d778")
+		(property "Sheetname" "MCU"
+			(at 120.65 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 120.65 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Energry_monitor"
+				(path "/b3a00096-e201-45d6-8313-ccf00a75c96f"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
