@@ -1,0 +1,60 @@
+# KiCad backup and autosave files
+*.bak
+*.kicad-bak
+*.save
+
+# Lock files (temporary, per session)
+*.lck
+
+# User-specific configuration files
+*.kicad_prl
+
+# Autosave and recovery files
+*.tmp
+*.tmp-bak
+
+# Simulation files
+*.log
+*.raw
+*.out
+*.cir
+*.lst
+*.plt
+
+# Gerber and manufacturing output (optional if generated locally)
+*.gbr
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.drl
+*.map
+*.svg
+*.pdf
+*.zip
+
+# Cache files
+*.cache
+*.kicad_sch-bak
+*-cache.lib
+*-rescue.lib
+
+# Exported BOMs or netlists (optional, regenerate on demand)
+*.xml
+*.net
+*.csv
+*.bom
+
+# Build folders (if using out-of-tree builds or script outputs)
+build/
+output/
+gerbers/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (if used)
+.vscode/
