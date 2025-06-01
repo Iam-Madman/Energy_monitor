@@ -5,9 +5,39 @@
 	(uuid "b3a00096-e201-45d6-8313-ccf00a75c96f")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 134.62 115.57) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05df2f98-1f11-4530-8557-664f376ded7a")
+	)
+	(bus
+		(pts
+			(xy 154.94 68.58) (xy 154.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550ad60d-0c2a-45ca-a266-0d11856fcf3e")
+	)
+	(bus
+		(pts
+			(xy 134.62 68.58) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e27bd6-d41c-4829-b31a-2f90a93920cc")
+	)
 	(sheet
-		(at 162.56 102.87)
-		(size 20.32 17.78)
+		(at 107.95 68.58)
+		(size 20.32 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +52,7 @@
 		)
 		(uuid "898cdbbf-5924-41ba-953e-04f738a80062")
 		(property "Sheetname" "Power"
-			(at 162.56 102.1584 0)
+			(at 107.95 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +61,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 162.56 121.2346 0)
+			(at 107.95 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +78,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 102.87)
+		(at 161.29 69.85)
 		(size 25.4 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +94,7 @@
 		)
 		(uuid "cf137352-20d7-470c-8d18-0a5a7a2aba60")
 		(property "Sheetname" "Energy_IC"
-			(at 129.54 102.1584 0)
+			(at 161.29 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "Energy_IC.kicad_sch"
-			(at 129.54 119.9646 0)
+			(at 161.29 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,8 +120,8 @@
 		)
 	)
 	(sheet
-		(at 101.6 102.87)
-		(size 22.86 16.51)
+		(at 161.29 99.06)
+		(size 25.4 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +136,7 @@
 		)
 		(uuid "f6d29f19-82be-493b-ac03-8f5d2874d778")
 		(property "Sheetname" "MCU"
-			(at 101.6 102.1584 0)
+			(at 161.29 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +145,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 101.6 119.9646 0)
+			(at 161.29 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)

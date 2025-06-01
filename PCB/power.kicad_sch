@@ -2785,7 +2785,7 @@
 		(uuid "fd7d17a9-c71c-41d5-8199-c64e58487820")
 	)
 	(hierarchical_label "GNDA"
-		(shape output)
+		(shape passive)
 		(at 176.53 125.73 90)
 		(effects
 			(font
@@ -2796,7 +2796,7 @@
 		(uuid "0ac78f35-704a-4050-91dd-87ade1cc272f")
 	)
 	(hierarchical_label "VDDA"
-		(shape output)
+		(shape passive)
 		(at 165.1 125.73 90)
 		(effects
 			(font
@@ -2807,7 +2807,7 @@
 		(uuid "0fb57319-0d30-418f-95c5-ebb75e2bd412")
 	)
 	(hierarchical_label "GNDD"
-		(shape output)
+		(shape passive)
 		(at 259.08 125.73 90)
 		(effects
 			(font
@@ -2818,7 +2818,7 @@
 		(uuid "38d45665-9cd2-4d15-b833-0ab23f4b0745")
 	)
 	(hierarchical_label "VDD"
-		(shape output)
+		(shape passive)
 		(at 245.11 125.73 90)
 		(effects
 			(font
