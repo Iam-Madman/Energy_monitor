@@ -616,6 +616,14 @@
     [
       "f6d29f19-82be-493b-ac03-8f5d2874d778",
       "MCU"
+    ],
+    [
+      "898cdbbf-5924-41ba-953e-04f738a80062",
+      "Power"
+    ],
+    [
+      "cf137352-20d7-470c-8d18-0a5a7a2aba60",
+      "Energy_IC"
     ]
   ],
   "text_variables": {}

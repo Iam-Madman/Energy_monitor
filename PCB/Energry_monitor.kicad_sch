@@ -6,8 +6,92 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 120.65 95.25)
-		(size 12.7 12.7)
+		(at 162.56 102.87)
+		(size 20.32 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "898cdbbf-5924-41ba-953e-04f738a80062")
+		(property "Sheetname" "Power"
+			(at 162.56 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 162.56 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Energry_monitor"
+				(path "/b3a00096-e201-45d6-8313-ccf00a75c96f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 102.87)
+		(size 25.4 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf137352-20d7-470c-8d18-0a5a7a2aba60")
+		(property "Sheetname" "Energy_IC"
+			(at 129.54 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Energy_IC.kicad_sch"
+			(at 129.54 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Energry_monitor"
+				(path "/b3a00096-e201-45d6-8313-ccf00a75c96f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 102.87)
+		(size 22.86 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +106,7 @@
 		)
 		(uuid "f6d29f19-82be-493b-ac03-8f5d2874d778")
 		(property "Sheetname" "MCU"
-			(at 120.65 94.5384 0)
+			(at 101.6 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 120.65 108.5346 0)
+			(at 101.6 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
