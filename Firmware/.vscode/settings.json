@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "fcntl.h": "c",
+        "atm_uart.h": "c"
+    }
+}

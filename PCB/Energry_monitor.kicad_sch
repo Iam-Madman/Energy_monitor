@@ -5,6 +5,9 @@
 	(uuid "b3a00096-e201-45d6-8313-ccf00a75c96f")
 	(paper "A4")
 	(lib_symbols)
+	(bus_alias "BUS"
+		(members "VDD")
+	)
 	(bus
 		(pts
 			(xy 134.62 115.57) (xy 134.62 68.58)
@@ -34,6 +37,16 @@
 			(type default)
 		)
 		(uuid "f8e27bd6-d41c-4829-b31a-2f90a93920cc")
+	)
+	(label "{BUS}"
+		(at 142.24 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d34f4478-45b2-47cd-93e3-7c5dff93be68")
 	)
 	(sheet
 		(at 107.95 68.58)
@@ -67,6 +80,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VDD" passive
+			(at 128.27 73.66 0)
+			(uuid "55aca2dd-d60c-46b7-861d-90acebb748b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GNDD" passive
+			(at 128.27 77.47 0)
+			(uuid "a32764c4-f9b5-45fe-a407-dd6145fc2be8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDDA" passive
+			(at 128.27 102.87 0)
+			(uuid "69164d1e-829f-475c-8ed0-9703f2b8c451")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GNDA" passive
+			(at 128.27 106.68 0)
+			(uuid "77a8c402-dcb5-4ca1-b794-1058f8605d21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
